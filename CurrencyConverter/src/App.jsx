@@ -27,11 +27,15 @@ function App() {
 
   return (
     <div
+    
         className="w-full h-screen flex flex-wrap justify-center items-center bg-cover bg-no-repeat"
         style={{
-            backgroundImage: `url('https://images.pexels.com/photos/3532540/pexels-photo-3532540.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')`,
+            backgroundImage: `url('https://media.istockphoto.com/id/1153657433/vector/digital-analytics-data-visualization-financial-schedule-monitor-screen-in-perspective.jpg?s=612x612&w=0&k=20&c=x6_oPFtSLL7foLpSBWQIB9mR1vXVda-PEpGVanAbJ7M=')`,
+            // backgroundImage: `url('https://images.pexels.com/photos/3532540/pexels-photo-3532540.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')`,
         }}
     >
+        <h1 className='text-4xl text-white'> Currency Converter App</h1>
+        
         <div className="w-full">
             <div className="w-full max-w-md mx-auto border border-gray-60 rounded-lg p-5 backdrop-blur-sm bg-white/30">
                 <form
