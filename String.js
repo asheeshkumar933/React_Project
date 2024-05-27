@@ -1,6 +1,6 @@
 // Promise Concept 
 
-const promiseOne = new Promise(function(resolve , reject){
+const promiseOne = new Promise((resolve , reject) =>{
   let error = false
   if (!error) {
     resolve({
@@ -31,6 +31,22 @@ const promiseOne = new Promise(function(resolve , reject){
   
 // }
 // newpromise()
+
+
+function user (username , password , islogged) {
+  this.username = username 
+  this.password = password 
+  this.islogged = islogged 
+  this.details =  function(){
+    console.log(`hello ${this.username}`)
+  }
+   return this
+  
+}
+// const userone = new user("Asheesh sharma " , 12121,true)
+// const usertwo = new user("Jyoti Rawat" , 12121 , false)
+// console.log(usertwo)
+// console.log(userone.details());
 
 
 
